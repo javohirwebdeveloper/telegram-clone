@@ -17,7 +17,7 @@ export default function Sidebar({ onSelect, selectedUser }) {
 
   return (
     <div className="w-1/3 border-r border-[#202c33] h-screen overflow-auto bg-[#212121] text-white">
-      <h2 className="p-4 font-bold text-xl border-b border-[#202c33]">Foydalanuvchilar</h2>
+      <h2 className="p-4 font-bold text-xl border-b border-[#202c33]">Users</h2>
       {users.map(user => (
         <div
           key={user.id}
