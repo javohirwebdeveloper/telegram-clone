@@ -9,7 +9,7 @@ export default function Login() {
   const login = async () => {
     try {
       await pb.collection('users').authWithPassword(email, password);
-      window.location.href = '/chat';
+      window.location.href = '/';
     } catch (err) {
       alert('Xatolik: ' + err.message);
     }
